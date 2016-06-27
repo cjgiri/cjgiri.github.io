@@ -1597,14 +1597,11 @@ button,
   background: rgba(255, 255, 255, 0.05);
   margin: 0 0 2em 0; }
   .features section {
-    padding: 3.5em 3em 1em 7em ;
-    width: 50%;
-    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    padding: 3em 3em 1em 3em ;
+    width: 25%;
     position: relative; }
     .features section:nth-child(-n + 2) {
       border-top-width: 0; }
-    .features section:nth-child(2n) {
-      border-left: solid 1px rgba(255, 255, 255, 0.15); }
     .features section .icon {
       -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
       -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
@@ -1732,11 +1729,8 @@ button,
     .features {
       display: block; }
       .features section {
-        border-top-width: 1px !important;
         border-left-width: 0 !important;
-        width: 100%; }
-        .features section:first-child {
-          border-top-width: 0 !important; } }
+        width: 100%; } }
   @media screen and (max-width: 736px) {
     .features section {
       padding: 2.5em 1.5em 0.1em 5.5em ; }
@@ -1979,6 +1973,10 @@ input[type="radio"] + label:before {
         color: #00705d; }
 
 /* Image */
+.profile-image {
+  float: right;
+  padding-left: 15px; }
+
 .image {
   border-radius: 0.25em;
   border: 0;
@@ -2186,7 +2184,7 @@ header h6 + p {
   .split > * {
     width: calc(50% - 2.5em); }
   .split > :nth-child(2n - 1) {
-    padding-right: 2.5em;
+    padding-right: 1.5em;
     border-right: solid 1px rgba(255, 255, 255, 0.15); }
   .split > :nth-child(2n) {
     padding-left: 2.5em; }
